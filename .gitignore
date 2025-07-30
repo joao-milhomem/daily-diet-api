@@ -1,0 +1,9 @@
+# System files
+node_modules
+
+# Development files
+tmp
+
+# Envorimment 
+.env
+.env.test
