@@ -7,3 +7,6 @@ tmp
 # Envorimment 
 .env
 .env.test
+
+#build
+build
