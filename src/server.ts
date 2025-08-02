@@ -4,6 +4,7 @@ import { env } from './env'
 server.listen(
 	{
 		port: env.PORT,
+		host: 'RENDER' in process.env ? '0.0.0.0' : 'localhost',
 	},
 	(err, adrss) => {
 		if (err) {
